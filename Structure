@@ -3,7 +3,9 @@ ultimate_c_tool/
 ├── main.c
 ├── include/
 │   ├── string_utils.h
-│   └── hash_utils.h
+│   ├── hash_utils.h
+│   └── memory_utils.h
 ├── src/
 │   ├── string_utils.c
-│   └── hash_utils.c
+│   ├── hash_utils.c
+│   └── memory_utils.c
