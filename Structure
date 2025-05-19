@@ -1,0 +1,9 @@
+ultimate_c_tool/
+├── Makefile
+├── main.c
+├── include/
+│   ├── string_utils.h
+│   └── hash_utils.h
+├── src/
+│   ├── string_utils.c
+│   └── hash_utils.c
