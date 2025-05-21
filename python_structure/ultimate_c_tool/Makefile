@@ -8,7 +8,7 @@ TARGET = ultimate_c_tool
 all: $(TARGET)
 
 $(TARGET): $(OBJ)
-	$(CC) -o $@ $^
+    $(CC) $(CFLAGS) -o $@ $^
 
 clean:
-	rm -f $(OBJ) $(TARGET)
+    rm -f $(OBJ) $(TARGET)
