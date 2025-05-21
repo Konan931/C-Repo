@@ -1,7 +1,8 @@
 #ifndef NUMBER_UTILS_H
 #define NUMBER_UTILS_H
+#include <stddef.h>
 
-void print_hex(int number);
-void print_octal(int number);
+int is_prime(int n);
+int gcd(int a, int b);
 
 #endif

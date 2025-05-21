@@ -4,8 +4,18 @@ ultimate_c_tool/
 ├── include/
 │   ├── string_utils.h
 │   ├── hash_utils.h
-│   └── memory_utils.h
+│   ├── memory_utils.h
+│   ├── number_utils.h
+│   ├── debug_utils.h
+│   ├── file_utils.h
+│   ├── thread_utils.h
+│   └── data_structures.h
 ├── src/
 │   ├── string_utils.c
 │   ├── hash_utils.c
-│   └── memory_utils.c
+│   ├── memory_utils.c
+│   ├── number_utils.c
+│   ├── debug_utils.c
+│   ├── file_utils.c
+│   ├── thread_utils.c
+│   └── data_structures.c

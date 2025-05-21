@@ -1,12 +1,9 @@
 #ifndef FILE_UTILS_H
 #define FILE_UTILS_H
 
-#include <stdio.h>
+#include <stddef.h>
 
-// Read a file and return its content as a string
-char* read_file(const char *filename);
-
-// Write a string to a file
-void write_file(const char *filename, const char *content);
+int file_exists(const char *filename);
+size_t file_size(const char *filename);
 
 #endif
